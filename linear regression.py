@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 
+# creating synthetic data
 def Synthetic_Data(n):
     x = np.random.rand(n, 1)
     y = 2+3*x + (np.random.rand(n, 1)/5)
